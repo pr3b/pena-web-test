@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Pena</title>
+    <link rel="icon" type="image/x-icon" href="/Resources/logo/pena-icon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/abad8c03d7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="/js/preloader.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js"></script>
+  </head>
+  <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+
+    <div class="preloader">
+      <div class="loading">
+        <img src="/Resources/preloader.gif" />
+      </div>
+    </div>
+    <!-- Content -->
+
+    <!-- Navbar -->
+    <!-- <nav>
+        <img class="logo" src="/Resources/logo/pena-text.png" />
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#service">Service</a>
+        <a href="#casestudies">Case Studies</a>
+        <button class="button-5">Contact</button>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+    </nav> -->
+
+    <!-- navbar3 -->
+    <!-- <header class="header">
+      <div class="container">
+        <div class="row-nav">
+          <div>
+            <a href="https://penateam.com/">
+              <img class="nav-logo" src="/Resources/source/pics/pena-logo.png" />
+            </a>
+          </div>
+          <input type="checkbox" id="nav-check" />
+          <label for="nav-check" class="nav-toggler">
+            <i class="fa-solid fa-bars"></i>
+          </label>
+        </div>
+      </div>
+    </header> -->
+    <div id="home">
+      <header class="header-logo">
+        <a href="https://penateam.com/">
+          <img class="nav-logo" src="/Resources/source/pics/pena-logo.png" />
+        </a>
+        <div class="spin-text">
+          <div id="container">
+            <div id="circle">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="300px"
+                height="300px"
+                viewBox="0 0 300 300"
+                enable-background="new 0 0 300 300"
+                xml:space="preserve"
+              >
+                <defs>
+                  <path
+                    id="circlePath"
+                    d=" M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "
+                  />
+                </defs>
+                <circle cx="150" cy="100" r="75" fill="none" />
+                <g>
+                  <use xlink:href="#circlePath" fill="none" />
+                  <text fill="#000">
+                    <textPath xlink:href="#circlePath">
+                      PENAPENAPENAPENAPENAPENAPENAPENA
+                    </textPath>
+                  </text>
+                </g>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="toggle">
+          <i class="fas fa-bars"></i>
+        </div>
+      </header>
+
+      <nav>
+        <ul>
+          <li>
+            <a class="toggle">
+              <span class="icon"
+                ><i class="fa-solid fa-chevron-right icon-reverse"></i
+              ></span>
+              <span class="title"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#home">
+              <span class="icon"
+                ><img src="/Resources/source/icons/home-nonactive.png"
+              /></span>
+              <span class="title">HOME</span>
+            </a>
+          </li>
+          <li>
+            <a href="#about">
+              <span class="icon"
+                ><img src="/Resources/source/icons/about-nonactive.png"
+              /></span>
+              <span class="title">ABOUT US</span>
+            </a>
+          </li>
+          <li>
+            <a href="#services">
+              <span class="icon"
+                ><img src="/Resources/source/icons/services-nonactive.png"
+              /></span>
+              <span class="title">SERVICES</span>
+            </a>
+          </li>
+          <li>
+            <a href="#casestudies">
+              <span class="icon"
+                ><img src="/Resources/source/icons/case-nonactive.png"
+              /></span>
+              <span class="title">CASE STUDIES</span>
+            </a>
+          </li>
+          <li>
+            <a href="#contact">
+              <span class="icon"
+                ><img src="/Resources/source/icons/pen-nonactive.png"
+              /></span>
+              <span class="title">DOCUMENT WITH US</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Introduction -->
+
+      <div class="intro-container">
+        <img src="/Resources/source/pics/homepage illustration.png" />
+        <div class="introduction-wrapper">
+          <h1 class="intro-title hanson-font">
+            <span style="color: #f19d19">COMBINING</span>
+            <br />
+            TECHNOLOGY AND
+            <br />
+            PROCESSES
+          </h1>
+          <p class="intro-description">
+            Pena stands for innovation and quality. We offer a wide range of
+            services, such as API & SDK documentation, web development,
+            technical writing and product management. We offer a wide range of content creation services in one
+            place so that you can conveniently outsource all your content needs
+            to us without having to deal with multiple vendors. Connect with our
+            team for support, training, and advice.
+          </p>
+          <button
+            onclick="window.location.href='#contact'"
+            class="button-5 button-length"
+          >
+            Work With Us
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- About us -->
+    <div id="about">
+      <div class="intro-container">
+        <div class="introduction-wrapper-reverse">
+          <h1 class="intro-title hanson-font">
+            HI, WE'RE
+            <br />
+            <span style="color: #f19d19">PENA!</span>
+          </h1>
+          <p class="intro-description">
+            We have everything you need to get started. We design and engineer
+            solutions to help you get your message across. Our team consists of
+            professionals with technical knowledge, proven competencies, and a
+            can-do attitude to deliver satisfying outcomes unmatched by any
+            other. Whether you're a start-up or a global enterprise, let us
+            handle all your needs with the ingenuity of a computer engineer and
+            the passion of a marketing professional. From API to SDK
+            documentation and everything in between, we do it all!
+          </p>
+        </div>
+        <div class="img-button-wrapper">
+          <img src="/Resources/source/pics/about illustration light.png" />
+          <!-- <button
+            onclick="window.location.href='#contact'"
+            class="button-8 button-length"
+          >
+            Start your journey with us today!
+            <i style="margin-left: 1rem;" class="fa-solid fa-chevron-right"></i> 
+          </button> -->
+        </div>
+      </div>
+    </div>
+
+    <section class="spacer">
+      <h1 id="scrollingText">
+        All of your technical writing needs harmoniously in one place All of
+        your technical writing needs harmoniously in one place All of your
+        technical writing needs harmoniously in one place
+      </h1>
+    </section>
+
+    <!-- About us -->
+    <!-- <div id="about">
+      <div class="about-container">
+        <img src="/Resources/source/pics/homepage illustration.png" />
+          <div class="about-us-text">
+            <h1 class="about-us-title">Hi, we're Pena!</h1>
+            <br />
+            <br />
+            <div class="about-us-description">
+              We specialize in creating, delivering, and improving code and copy
+              in a ready-to-use package. Let us handle all your software needs
+              with the ingenuity of a computer engineer and the passion of a
+              marketing professional. Streamlined solutions made easy and
+              available worldwide. From concept to creation, Pena provides
+              high-quality products through detailed development and innovative
+              implementation. Our documentation process consists of multiple
+              thorough run-downs, statistical-based strategies, and distinguished
+              business use cases by an experienced team equipped with technical
+              expertise, demonstrated capabilities, and a can-do attitude to
+              provide satisfactory results rivaled by no other.
+              Your go-to all-in-one technical business partner is ready for you,
+              whether you're a startup or a global enterprise. Are you ready for
+              us?
+            </div>
+          </div>
+        </div>
+    </div> -->
+
+    <!-- Our Service -->
+    <div id="services">
+      <div class="service-wrapper">
+        <div class="service-text">
+          <h1 class="intro-title2 hanson-font">
+            <span style="color: #f19d19">OUR</span>
+            SERVICE
+          </h1>
+        </div>
+        <!-- Cards -->
+        <div class="cards">
+          <div class="wrapper">
+            <div class="product-img sdk-img">
+              <img src="/Resources/Asset/Our service_Api Doc.png" />
+            </div>
+            <div class="product-info">
+              <div class="product-text">
+                <h1 class="hover-underline-animation">
+                  API & SDK Documentation
+                </h1>
+                <p>
+                  Get fast, professional, and state-of-the-art API and SDK
+                  documentation that meets all your needs. We're a team of
+                  passionate developers and writers. We take extreme care in our
+                  writing so that your documentation is clear, concise, and
+                  error-free.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="product-img">
+              <img src="/Resources/Asset/Our service_web dev.png" />
+            </div>
+            <div class="product-text">
+              <h1 class="hover-underline-animation">Web Development</h1>
+              <p>
+                Do you need a website redesign? Or perhaps you need an app
+                built? Whatever it may be, we can help. We offer top-notch
+                front-end and back-end developers to create something unique as
+                per your requirements.
+              </p>
+            </div>
+          </div>
+          <div class="wrapper">
+            <div class="product-img">
+              <img src="/Resources/Asset/Our service_technical write.png" />
+            </div>
+            <div class="product-text">
+              <h1 class="hover-underline-animation">Technical Writing</h1>
+              <p>
+                We provide quick, yet high-quality content in the form of user
+                guides, training manuals, and developer guides. We offer fast
+                turnaround times for an affordable price that is much lower than
+                what other writers charge - it's never been easier to learn how
+                to use your product.
+              </p>
+            </div>
+          </div>
+          <!-- <div class="wrapper">
+            <div class="product-img">
+              <img src="/Resources/Asset/Our service_Copywriting.png" />
+            </div>
+            <div class="product-text">
+              <h1 class="hover-underline-animation">Copywriting</h1>
+              <p>
+                This is your one-stop shop for all your SEO needs. Writing copy
+                for emails, web banners, ads, blog posts, social media posts,
+                infographics, and more - Pena has it all. Need experienced
+                copywriters to wire up your project? We've got the skills and
+                expertise required.
+              </p>
+            </div>
+          </div> -->
+          <div class="wrapper">
+            <div class="product-img sdk-img">
+              <img src="/Resources/Asset/Our product_management.png" />
+            </div>
+            <div class="product-text">
+              <h1 class="hover-underline-animation">Product Management</h1>
+              <p>
+                Plan, develop, launch, and manage your product with the help of
+                our team of world-class experts. At Pena, we believe that a
+                product's success doesn't depend on its features. It's how well
+                a product is managed that will make all the difference.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Case Studies -->
+    <div id="casestudies">
+      <div class="case-study">
+        <div class="case-study-text">
+          <h1 class="intro-title2 hanson-font">
+            <span style="color: #f19d19">CASE</span>
+            STUDIES
+          </h1>
+          <br />
+          <!-- <div class="case-study-description">
+              We have achieved numerous great solution with our clients.
+            </div> -->
+        </div>
+        <div class="case-margin">
+          <div
+            class="case-brand-carousel section-padding owl-carousel owl-theme"
+          >
+            <!-- <div class="case-single-logo">
+              <a href="/pages/microsoft.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - microsoft.jpg"
+                />
+              </a>
+              <h2>Microsoft</h2>
+              <p>User Guide</p>
+            </div> -->
+            <!-- <div class="case-single-logo">
+              <a href="/pages/ocr-labs.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - ocrlabs.jpg"
+                />
+              </a>
+              <h2>OCR Labs</h2>
+              <p>API, SDK Documentation & User Guide</p>
+            </div> -->
+            <div class="case-single-logo">
+              <a href="/pages/draftbit.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - draftbit.jpg"
+                />
+              </a>
+              <h2>Draftbit</h2>
+              <p>User Guide</p>
+            </div>
+            <div class="case-single-logo">
+              <a href="/pages/rms.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - rms.jpg"
+                />
+              </a>
+              <h2>Retail Merchant Services</h2>
+              <p>SDK Documentation</p>
+            </div>
+            <div class="case-single-logo">
+              <a href="/pages/vonigo.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - vonigo.jpg"
+                />
+              </a>
+              <h2>Vonigo</h2>
+              <p>User Guide</p>
+            </div>
+            <div class="case-single-logo">
+              <a href="/pages/cymbio.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - cymbio.jpg"
+                />
+              </a>
+              <h2>Cymbio</h2>
+              <p>API Documentation</p>
+            </div>
+            <div class="case-single-logo">
+              <a href="/pages/ficx.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - ficx.jpg"
+                />
+              </a>
+              <h2>FICX</h2>
+              <p>User Guide</p>
+            </div>
+
+            <div class="case-single-logo">
+              <a href="/pages/mojito.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - mojito.jpg"
+                />
+              </a>
+              <h2>Mojito</h2>
+              <p>API & Product Management</p>
+            </div>
+            <!-- <div class="case-single-logo">
+              <a href="/pages/rpa-labs.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - rpalabs.jpg"
+                />
+              </a>
+              <h2>RPA Labs</h2>
+              <p>API Documentation</p>
+            </div> -->
+            <div class="case-single-logo">
+              <a href="/pages/oxla.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - oxla.jpg"
+                />
+              </a>
+              <h2>Oxla</h2>
+              <p>User Guide</p>
+            </div>
+            <div class="case-single-logo">
+              <a href="/pages/dock.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - dock.jpg"
+                />
+              </a>
+              <h2>Dock</h2>
+              <p>API Documentation</p>
+            </div>
+            <div class="case-single-logo">
+              <a href="/pages/chainengine.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - chainengine.jpg"
+                />
+              </a>
+              <h2>Chain Engine</h2>
+              <p>API Documentation & User Guide</p>
+            </div>
+            <div class="case-single-logo">
+              <a href="/pages/prepr.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - prepr.jpg"
+                />
+              </a>
+              <h2>Prepr</h2>
+              <p>API Documentation & User Guide</p>
+            </div>
+            <div class="case-single-logo">
+              <a href="/pages/dialog.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - dialog.jpg"
+                />
+              </a>
+              <h2>Dialog</h2>
+              <p>Technical Whitepaper</p>
+            </div>
+            <div class="case-single-logo">
+              <a href="/pages/skype.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - skype.jpg"
+                />
+              </a>
+              <h2>Skype</h2>
+              <p>User Guide</p>
+            </div>
+            <div class="case-single-logo">
+              <a href="/pages/rippey.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - rippey.jpg"
+                />
+              </a>
+              <h2>Rippey</h2>
+              <p>API Documentation</p>
+            </div>
+            <div class="case-single-logo">
+              <a href="/pages/wia.html" target="_blank">
+                <img
+                  src="/Resources/client-project/showcase/showcase thumbnail - wia.jpg"
+                />
+              </a>
+              <h2>WIA</h2>
+              <p>Technical Brochure</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Client Logo -->
+    <div id="our-client">
+      <div class="client-background">
+        <div class="brand-carousel section-padding owl-carousel owl-theme">
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/chain-engine.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/cymbio.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/dialog semiconductor.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/dock io.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/draftbit.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img src="/Resources/logo/client-logo/logo-white/ficx.png" alt="" />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/microsoft.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/mojito.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/ocr labs.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/order out.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img src="/Resources/logo/client-logo/logo-white/oxla.png" alt="" />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/prepr.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/rippey.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img src="/Resources/logo/client-logo/logo-white/rms.png" alt="" />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/tetsuyu.png"
+              height="100px"
+              width="100px"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img
+              src="/Resources/logo/client-logo/logo-white/vonigo.png"
+              alt=""
+            />
+          </div>
+          <div class="single-logo">
+            <img src="/Resources/logo/client-logo/logo-white/wia.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Testimonial -->
+    <div
+      class="testimonials-brand-carousel section-padding owl-carousel owl-theme"
+    >
+      <div class="testimonials-card">
+        <span class="quote">"</span>
+        <img src="/resources/testimonials-picture/Emily Hendley - Product Owner - OCR Labs.png" class="testimonials-avatar" />
+        <h3>
+          I have worked with Cahyo and team for 6 months. In that time they have produced a full readme site (API and user guide), as well as working on other projects at the same time. He has been an absolute pleasure to work with and has been extremely diligent in keeping track of actions and feedback which has make the process a lot easier to manage. He went above and beyond in creating animations and images that we can use company wide. I highly recommend working with Penateam to fulfil both technical and non technical documentation needs.
+        </h3>
+        <p>Emily Hendley - Product Owner OCR Labs</p>
+      </div>
+      <div class="testimonials-card">
+        <span class="quote">"</span>
+        <img src="/resources/testimonials-picture/Matt Motsick - CEO Rippey AI.png" class="testimonials-avatar" />
+        <h3>
+          "Cahyo has great experience in creating API documentation pages. I
+          highly recommend him."
+        </h3>
+        <p>Matt Motsick - CEO Rippey AI</p>
+      </div>
+      <div class="testimonials-card">
+        <span class="quote">"</span>
+        <img src="/resources/testimonials-picture/VP Engineering Cymbio - Eyal Mrejen.png" class="testimonials-avatar" />
+        <h3>
+          "I liked Cahyo's approach and willingness to work with us. He was very
+          professional in suggesting new ideas and was ever so polite and
+          friendly in his dealing with us. He was always on time for meetings,
+          and deliveries, and really performed quality work."
+        </h3>
+        <p>Eyal Mrejen - VP Engineering Cymbio</p>
+      </div>
+      <div class="testimonials-card">
+        <span class="quote">"</span>
+        <img src="/resources/testimonials-picture/COO DOCK - Elina Cadouri.png" class="testimonials-avatar" />
+        <h3>
+          "We worked with Cahyo on our technical documentation for an API for
+          our SaaS product. Cahyo did a thorough job and completed the work
+          successfully. He's a great communicator and was very responsive to
+          feedback. Thanks for the help Cahyo!"
+        </h3>
+        <p>Elina Cadouri - COO Dock</p>
+      </div>
+      <div class="testimonials-card">
+        <span class="quote">"</span>
+        <img src="/resources/testimonials-picture/Roxanne Kenison - Microsoft.png" class="testimonials-avatar" />
+        <h3>
+          "Cahyo quickly turned around a review of documentation for me with
+          accuracy and attention to detail. Great to work with."
+        </h3>
+        <p>Roxanne Kenison - Microsoft</p>
+      </div>
+    </div>
+
+    <!-- Contact us -->
+    <div id="contact">
+      <div class="hero-contact">
+        <div class="contact-typography">
+          <h1 class="hanson-font">
+            READY TO<br />
+            DOCUMENT<br />
+            WITH
+            <span style="color: #f19d19">US?</span>
+          </h1>
+          <p>
+            Drop us a message.<br />
+            You're one step away!
+          </p>
+        </div>
+        <div class="form-box">
+          <form class="form" method="post" data-netlify="true">
+            <div class="row">
+              <div class="input-group">
+                <input type="text" id="name" name="name" required />
+                <label class="label" for="name"
+                  ><i class="fa-solid fa-user"></i> Name :</label
+                >
+              </div>
+              <div class="input-group">
+                <input type="text" id="number" name="phone" required />
+                <label class="label" for="number"
+                  ><i class="fa-solid fa-phone"></i> Phone number :</label
+                >
+              </div>
+            </div>
+            <div class="input-group">
+              <input type="email" id="email" name="email" required />
+              <label class="label" for="email"
+                ><i class="fa-solid fa-envelope"></i> Email :</label
+              >
+            </div>
+            <h3 class="hanson-font">I need help with :</h3>
+            <br />
+            <div class="input-group">
+              <input list="cases" name="case" />
+              <datalist id="cases">
+                <option value="API & SDK Documentation"></option>
+                <option value="Web Development"></option>
+                <option value="Technical Writing"></option>
+                <option value="Product Management"></option>
+              </datalist>
+            </div>
+
+            <div class="input-group">
+              <textarea
+                id="message"
+                rows="8"
+                name="message"
+                required
+              ></textarea>
+              <label class="label" for="message"
+                ><i class="fa-solid fa-message"></i> Tell us about your project
+                :</label
+              >
+            </div>
+
+            <button class="button-7" type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- left sticky footer -->
+    <!-- <div class="left-footer">
+      <span>All rights reserved 2022 © Pena</span>
+    </div> -->
+
+    <div class="footer-left">
+      <div class="background-footer">
+        <p>All rights reserved 2022 © Pena</p>
+      </div>
+    </div>
+
+    <!-- <div class="left-footer-logo">
+    <img src="/Resources/source/icons/fb icon-nonactive.png" />
+  </div> -->
+
+    <!-- Footer -->
+    <div class="footer">
+      <img class="footer-logo" src="/Resources/source/pics/pena-logo.png" />
+      <div class="information">
+        <h2>Address :</h2>
+        <div class="branch">
+          <img class="flag" src="/Resources/source/icons/flag/indonesia.png" />
+          <p>
+            AD Premier Office Park, 9th Floor<br />
+            Jl. TB Simatupang No.5, South Jakarta City<br />
+            Jakarta, Indonesia
+          </p>
+          <img class="flag" src="/Resources/source/icons/flag/usa.png" />
+          <p>223 S Baldwin Ave, Arcadia, CA 91007, USA</p>
+        </div>
+      </div>
+      <div class="information">
+        <h2>Say hi to us :</h2>
+        <p><a href="mailto:hello@penateam.com">hello@penateam.com</a></p>
+      </div>
+    </div>
+    <!-- <div class="copyrights">
+      <p>All rights reserved 2022 © Pena Teknologi Indonesia</p>
+    </div>  -->
+
+    <!-- script -->
+
+    <script>
+      var getSidebar = document.querySelector("nav");
+      var getToggle = document.getElementsByClassName("toggle");
+      for (var i = 0; i <= getToggle.length; i++) {
+        getToggle[i].addEventListener("click", function () {
+          getSidebar.classList.toggle("active");
+        });
+      }
+    </script>
+    <script>
+      $(".brand-carousel").owlCarousel({
+        loop: true,
+        margin: 5,
+        autoplay: true,
+        nav: true,
+        responsive: {
+          0: {
+            items: 2,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+      $(".case-brand-carousel").owlCarousel({
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          1000: {
+            items: 3,
+          },
+        },
+      });
+      $(".testimonials-brand-carousel").owlCarousel({
+        loop: true,
+        margin: 2,
+        autoplay: true,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+
+      // $(function () {
+      //   // Owl Carousel
+      //   var owl = $(".owl-carousel");
+      //   owl.owlCarousel({
+      //     items: 3,
+      //     margin: 10,
+      //     loop: true,
+      //     nav: true,
+      //   });
+      // });
+    </script>
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+
+      let tl2 = gsap.timeline();
+      tl2.to("#scrollingText", {
+        y: 1000,
+        duration: 5000,
+        repeat: 10,
+        ease: "linear",
+      });
+      let tl = gsap.timeline();
+      tl.to("#scrollingText", {
+        yPercent: -20,
+        scrollTrigger: {
+          trigger: "#scrollingText",
+          scrub: 1,
+        },
+      });
+    </script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cards",
+        grabCursor: true,
+      });
+    </script>
+  </body>
+</html>
